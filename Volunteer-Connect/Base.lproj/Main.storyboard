@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F1096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -81,11 +81,11 @@
                         <viewControllerLayoutGuide type="bottom" id="lnX-cQ-BFc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XJN-I2-VfT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Number of Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="KUx-nQ-mkZ">
-                                <rect key="frame" x="94" y="225" width="227" height="35"/>
+                                <rect key="frame" x="94" y="225" width="188" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KUx-nQ-mkZ" secondAttribute="height" multiplier="19:3" id="Irb-z8-P9C"/>
                                     <constraint firstAttribute="width" secondItem="KUx-nQ-mkZ" secondAttribute="height" multiplier="19:3" id="oz3-PI-bEm"/>
@@ -102,7 +102,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Area of Interest" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2fX-sZ-DVF">
-                                <rect key="frame" x="101" y="44" width="211" height="32"/>
+                                <rect key="frame" x="101" y="44" width="172" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2fX-sZ-DVF" secondAttribute="height" multiplier="211:40" id="Sfq-FH-kr9"/>
                                     <constraint firstAttribute="width" secondItem="2fX-sZ-DVF" secondAttribute="height" multiplier="39:7" id="ocr-4e-9hL"/>
@@ -129,25 +129,25 @@
                                 </constraints>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GIB-GW-PaN">
-                                <rect key="frame" x="349" y="368" width="51" height="31"/>
+                                <rect key="frame" x="310" y="368" width="51" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="GIB-GW-PaN" secondAttribute="height" multiplier="49:31" id="nef-7Z-hPp"/>
                                 </constraints>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b3o-IB-yWx">
-                                <rect key="frame" x="102" y="658" width="51" height="31"/>
+                                <rect key="frame" x="102" y="589" width="51" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="b3o-IB-yWx" secondAttribute="height" multiplier="49:31" id="GrS-iZ-dYx"/>
                                 </constraints>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CDY-pb-l8N">
-                                <rect key="frame" x="349" y="329" width="51" height="31"/>
+                                <rect key="frame" x="310" y="329" width="51" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="CDY-pb-l8N" secondAttribute="height" multiplier="49:31" id="z2h-n1-kXX"/>
                                 </constraints>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gYs-AN-5jV">
-                                <rect key="frame" x="349" y="290" width="51" height="31"/>
+                                <rect key="frame" x="310" y="290" width="51" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gYs-AN-5jV" secondAttribute="height" multiplier="49:31" id="dVZ-YU-k91"/>
                                 </constraints>
@@ -159,7 +159,7 @@
                                 </constraints>
                             </switch>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H2H-IS-VNV">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="Search Parameters" id="klV-eg-AZ3">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="fBO-om-Qmy">
@@ -171,7 +171,7 @@
                                 </items>
                             </navigationBar>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="11" translatesAutoresizingMaskIntoConstraints="NO" id="1TJ-vr-947">
-                                <rect key="frame" x="23" y="254" width="368" height="39"/>
+                                <rect key="frame" x="23" y="254" width="329" height="34.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1TJ-vr-947" secondAttribute="height" multiplier="137:14" id="BxK-AF-FAf"/>
                                 </constraints>
@@ -191,7 +191,7 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7F-e6-11e">
-                                <rect key="frame" x="30" y="430" width="355" height="30"/>
+                                <rect key="frame" x="30" y="430" width="316" height="30"/>
                                 <state key="normal" title="Press to Start Searching">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -201,7 +201,7 @@
                                 </connections>
                             </button>
                             <pickerView clipsSubviews="YES" contentMode="center" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EME-Az-Ab4">
-                                <rect key="frame" x="68" y="89" width="277" height="216"/>
+                                <rect key="frame" x="68" y="89" width="238" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="EME-Az-Ab4" secondAttribute="height" multiplier="61:53" id="1ly-fy-a46"/>
                                 </constraints>
@@ -234,7 +234,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sunday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="gdQ-au-sQK">
-                                <rect key="frame" x="111" y="663" width="153" height="54"/>
+                                <rect key="frame" x="111" y="663" width="114" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gdQ-au-sQK" secondAttribute="height" multiplier="59:21" id="6Ob-LQ-VxD"/>
                                 </constraints>
@@ -478,7 +478,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="areaOfInterestPicker" destination="EME-Az-Ab4" id="vZg-Ag-mCo"/>
                         <outlet property="friday" destination="wWp-uV-CDg" id="4UB-GE-wLU"/>
