@@ -186,6 +186,7 @@
         Agency *x = [[Agency alloc] initWithName:name :city :target :phoneNumber :email :hours :monday :tuesday :wednesday :thursday :friday :saturday :sunday];
         
         [listOfAgencies addObject:x];
+        
         //if([x getIsOpenMonday]){NSLog(@"true");}
         
         //        Agency *x=[[Agency] name:name city:city target:target: phoneNumber:phoneNumber email:email hours:hours monday:monday tuesday:tuesday wednesday:wednesday thursday:thursday friday:friday saturday:saturday sunday:sunday];
@@ -212,6 +213,9 @@
     [self addAgencies:userChoices];
     [self shellSortListOfAgencies:userChoices];
 
+}
+-(NSMutableArray*)getSortedListOfAgencies{
+    return sortedListOfAgencies;
 }
 
 #pragma mark CLLocationManagerDelegate Methods
