@@ -32,6 +32,8 @@
     
     _areaOfInterestPicker.delegate = self;
     _areaOfInterestPicker.dataSource = self;
+    listOfAgencies=[NSMutableArray array];
+    sortedListOfAgencies=[NSMutableArray array];
 }
 
 
@@ -183,15 +185,18 @@
         saturday = [[[strArray objectAtIndex:rows] objectAtIndex:11] boolValue];
         sunday = [[[strArray objectAtIndex:rows] objectAtIndex:12] boolValue];
         
-        Agency *x = [[Agency alloc] initWithName:name :city :target :phoneNumber :email :hours :monday :tuesday :wednesday :thursday :friday :saturday :sunday];
+//        Agency *x = [[Agency alloc] initWithName:name :city :target :phoneNumber :email :hours :monday :tuesday :wednesday :thursday :friday :saturday :sunday];
+        Agency *x=[[Agency alloc] initWithName:name :city :target :phoneNumber :email :hours :monday :tuesday :wednesday :thursday :friday :saturday :sunday];
         
         [listOfAgencies addObject:x];
+       
         
         //if([x getIsOpenMonday]){NSLog(@"true");}
         
         //        Agency *x=[[Agency] name:name city:city target:target: phoneNumber:phoneNumber email:email hours:hours monday:monday tuesday:tuesday wednesday:wednesday thursday:thursday friday:friday saturday:saturday sunday:sunday];
 //        [listOfAgencies addObject: Agency(name,city,target,phoneNumber,email,hours,monday,tuesday,wednesday,thursday,friday,saturday,sunday))];
     }
+     //NSLog(@"%@", [[listOfAgencies objectAtIndex:1]  getEmail]);
     NSInteger pickerInput;
     pickerInput=[_areaOfInterestPicker selectedRowInComponent:0];
     selectedInterest=[areasOfInterests objectAtIndex:pickerInput];

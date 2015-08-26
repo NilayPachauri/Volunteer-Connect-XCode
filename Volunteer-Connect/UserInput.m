@@ -34,7 +34,7 @@
 -(NSString*)getUserAreaOfInterest{
     return userAreaOfInterest;
 }
--(double)getUserHours{
+-(double)getUserNumberOfHours{
     return userNumberOfHours;
 }
 -(bool)getUserIsSelectedMonday{
