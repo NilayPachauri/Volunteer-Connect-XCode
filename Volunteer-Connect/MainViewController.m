@@ -65,11 +65,12 @@
 -(void)addAgencies:(UserInput*) userSelections{
     const int MINIMUM_MATCH = 0;
     
-    for(int i=0; i<10; i++)
+    for(int i=0; i<[listOfAgencies count]; i++)
     {
-        if ([[listOfAgencies objectAtIndex:i] percentMatch: userSelections] > MINIMUM_MATCH) {
-            [sortedListOfAgencies addObject:([listOfAgencies objectAtIndex:i])];
-        }
+//        if ([[listOfAgencies objectAtIndex:i] percentMatch: userSelections] > MINIMUM_MATCH) {
+//            [sortedListOfAgencies addObject:([listOfAgencies objectAtIndex:i])];
+//        }
+        [sortedListOfAgencies addObject:([listOfAgencies objectAtIndex:i])];
     }
 }
 -(void)shellSortListOfAgencies: (UserInput*) userPreferences{
@@ -217,10 +218,12 @@
     
     [self addAgencies:userChoices];
     [self shellSortListOfAgencies:userChoices];
+    NSLog(@"%@", [[sortedListOfAgencies objectAtIndex:1]  getEmail]);
 
 }
 -(NSMutableArray*)getSortedListOfAgencies{
     return sortedListOfAgencies;
+    
 }
 
 #pragma mark CLLocationManagerDelegate Methods
